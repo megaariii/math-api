@@ -9,5 +9,7 @@
   "parserOptions": {
     "ecmaVersion": "latest"
   },
-  "rules": {}
+  "rules": {
+    "no-trailing-spaces": "off"
+  }
 }

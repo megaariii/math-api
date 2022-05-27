@@ -98,7 +98,7 @@ describe('A FigureCalculator', () => {
       const result = figureCalculator.calculateRectangleArea(length, width);
       // Assert
       expect(result).toEqual(60); // length * width
-      expect(spyMultiply).toBeCalledWith(2, 30); // length * width
+      expect(spyMultiply).toBeCalledWith(length, width); // length * width
     });
   });
 

@@ -10,6 +10,10 @@
     "ecmaVersion": "latest"
   },
   "rules": {
-    "no-trailing-spaces": "off"
+    "no-trailing-spaces": "off",
+    "comma-dangle": "off",
+    "no-underscore-dangle": "off",
+    "function-paren-newline": "off",
+    "implicit-arrow-linebreak": "off"
   }
 }

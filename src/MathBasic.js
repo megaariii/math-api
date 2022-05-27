@@ -40,6 +40,7 @@ const MathBasic = {
 
     return a * b;
   },
+
   divide: (...args) => {
     if (args.length !== 2) {
       throw new Error('Fungsi divide hanya menerima dua parameter');
